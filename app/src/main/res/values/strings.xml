@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Business App</string>
+    <string name="businessName">Taste of India</string>
+    <string name="titleCaption">\"Where the taste says it all\"</string>
+    <string name="hours">Hours:</string>
+    <string name="line1">Mon - Fri: 11:30am to 10pm</string>
+    <string name="line2">Sat - Sun: 12:00pm to 10pm</string>
+    <string name="phone">678 242-0155</string>
+    <string name="web">www.tasteofindia.com</string>
+    <string name="address">3070 Windward Plz Ste M,\nAlpharetta, GA 30005</string>
+</resources>

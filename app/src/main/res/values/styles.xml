@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="operationHours">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:textSize">@dimen/captionTextSize</item>
+        <item name="android:textColor">@color/captionColor</item>
+    </style>
+
+    <style name="drawableLinks">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/drawableLinkSize</item>
+        <item name="android:textColorLink">@color/titleColor</item>
+        <item name="android:layout_marginLeft">@dimen/drawableLeftMargin</item>
+        <item name="android:layout_marginTop">@dimen/drawableTopMargin</item>
+        <item name="android:drawablePadding">@dimen/drawablePadding</item>
+    </style>
+
+    <style name="landDrawableLinks">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/drawableLinkSize</item>
+        <item name="android:textColorLink">@color/titleColor</item>
+        <item name="android:layout_marginLeft">@dimen/landDrawableLeftMargin</item>
+        <item name="android:layout_marginTop">@dimen/drawableTopMargin</item>
+        <item name="android:drawablePadding">@dimen/drawablePadding</item>
+    </style>
+</resources>

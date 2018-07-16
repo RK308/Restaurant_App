@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.android.businessapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/food" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textTopMargin"
+            android:fontFamily="serif"
+            android:text="@string/businessName"
+            android:textAlignment="center"
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/textSize" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/captionBottomMargin"
+            android:layout_marginTop="@dimen/captionTopMargin"
+            android:fontFamily="serif"
+            android:text="@string/titleCaption"
+            android:textAlignment="center"
+            android:textColor="@color/captionColor"
+            android:textSize="@dimen/captionTextSize" />
+        <TextView
+            style="@style/operationHours"
+            android:text="@string/hours"
+            android:textAlignment="center" />
+        <TextView
+            style="@style/operationHours"
+            android:text="@string/line1"
+            android:textAlignment="center" />
+        <TextView
+            style="@style/operationHours"
+            android:text="@string/line2"
+            android:textAlignment="center" />
+        <TextView
+            style="@style/drawableLinks"
+            android:autoLink="all"
+            android:drawableLeft="@drawable/address"
+            android:drawableStart="@drawable/address"
+            android:text="@string/address" />
+        <TextView
+            style="@style/drawableLinks"
+            android:autoLink="all"
+            android:drawableLeft="@drawable/phone"
+            android:drawableStart="@drawable/phone"
+            android:text="@string/phone" />
+        <TextView
+            style="@style/drawableLinks"
+            android:autoLink="all"
+            android:drawableLeft="@drawable/web"
+            android:drawableStart="@drawable/web"
+            android:text="@string/web"
+            android:paddingBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">34sp</dimen>
+    <dimen name="textTopMargin">25dp</dimen>
+    <dimen name="captionTextSize">18sp</dimen>
+    <dimen name="captionTopMargin">5dp</dimen>
+    <dimen name="captionBottomMargin">20dp</dimen>
+    <dimen name="drawableLeftMargin">40dp</dimen>
+    <dimen name="landDrawableLeftMargin">155dp</dimen>
+    <dimen name="drawableTopMargin">20dp</dimen>
+    <dimen name="drawablePadding">16dp</dimen>
+    <dimen name="drawableLinkSize">20sp</dimen>
+</resources>
