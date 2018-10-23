@@ -36,4 +36,4 @@ Note: Reviewers will test on a Nexus 5X which has a screen size of 5.2 inches (1
 
 # Restaurant App
 
-![GitHub Logo](BusinessApp Screenshot.png )     
+[BusinessApp Screenshot.png]     
